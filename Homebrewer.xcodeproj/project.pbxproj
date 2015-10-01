@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C2C71801BA3099000AE1167 /* Hop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C717F1BA3099000AE1167 /* Hop.m */; };
+		7C2C71831BA3099E00AE1167 /* Grain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71821BA3099E00AE1167 /* Grain.m */; };
+		7C2C71861BA30B4200AE1167 /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */; };
+		7C2C71971BA31B3F00AE1167 /* HopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71961BA31B3F00AE1167 /* HopTableViewController.m */; };
+		7C2C719B1BA31BC400AE1167 /* HopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C719A1BA31BC400AE1167 /* HopTableViewCell.m */; };
+		7C2C719E1BA31BCC00AE1167 /* GrainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C719D1BA31BCC00AE1167 /* GrainTableViewCell.m */; };
+		7C2C71A01BA3282900AE1167 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2C719F1BA3282900AE1167 /* libsqlite3.dylib */; };
+		7C2C71A81BA32A9400AE1167 /* DBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71A71BA32A9400AE1167 /* DBModel.m */; };
+		7C2C71AB1BA34C9C00AE1167 /* Yeast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71AA1BA34C9C00AE1167 /* Yeast.m */; };
+		7C2C71AE1BA350FD00AE1167 /* NewProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71AD1BA350FD00AE1167 /* NewProductViewController.m */; };
+		7C2C71B11BA3539B00AE1167 /* GrainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71B01BA3539B00AE1167 /* GrainTableViewController.m */; };
+		7C2C71B51BA3557B00AE1167 /* HomeBrewerDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C2C71B41BA353C900AE1167 /* HomeBrewerDB.sqlite */; };
+		7CCCF2681BB1EE0500A9E5E1 /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CCCF2671BB1EE0500A9E5E1 /* HeaderTableViewCell.m */; };
+		7CDB30F81BA1FC1900386FBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB30F71BA1FC1900386FBC /* main.m */; };
+		7CDB30FB1BA1FC1900386FBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB30FA1BA1FC1900386FBC /* AppDelegate.m */; };
+		7CDB30FE1BA1FC1900386FBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB30FD1BA1FC1900386FBC /* ViewController.m */; };
+		7CDB31011BA1FC1900386FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CDB30FF1BA1FC1900386FBC /* Main.storyboard */; };
+		7CDB31031BA1FC1900386FBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CDB31021BA1FC1900386FBC /* Images.xcassets */; };
+		7CDB31061BA1FC1900386FBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CDB31041BA1FC1900386FBC /* LaunchScreen.xib */; };
+		7CDB31121BA1FC1A00386FBC /* HomebrewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB31111BA1FC1A00386FBC /* HomebrewerTests.m */; };
+		7CDB311E1BA1FC6F00386FBC /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB311D1BA1FC6F00386FBC /* Recipe.m */; };
+		7CDB31221BA212B400386FBC /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB31211BA212B400386FBC /* RecipeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CDB310C1BA1FC1A00386FBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CDB30EA1BA1FC1900386FBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CDB30F11BA1FC1900386FBC;
+			remoteInfo = Homebrewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7C2C717E1BA3099000AE1167 /* Hop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hop.h; sourceTree = "<group>"; };
+		7C2C717F1BA3099000AE1167 /* Hop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hop.m; sourceTree = "<group>"; };
+		7C2C71811BA3099E00AE1167 /* Grain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grain.h; sourceTree = "<group>"; };
+		7C2C71821BA3099E00AE1167 /* Grain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grain.m; sourceTree = "<group>"; };
+		7C2C71841BA30B4200AE1167 /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
+		7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
+		7C2C71951BA31B3F00AE1167 /* HopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HopTableViewController.h; sourceTree = "<group>"; };
+		7C2C71961BA31B3F00AE1167 /* HopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HopTableViewController.m; sourceTree = "<group>"; };
+		7C2C71991BA31BC400AE1167 /* HopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HopTableViewCell.h; sourceTree = "<group>"; };
+		7C2C719A1BA31BC400AE1167 /* HopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HopTableViewCell.m; sourceTree = "<group>"; };
+		7C2C719C1BA31BCC00AE1167 /* GrainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrainTableViewCell.h; sourceTree = "<group>"; };
+		7C2C719D1BA31BCC00AE1167 /* GrainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrainTableViewCell.m; sourceTree = "<group>"; };
+		7C2C719F1BA3282900AE1167 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7C2C71A61BA32A9400AE1167 /* DBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBModel.h; sourceTree = "<group>"; };
+		7C2C71A71BA32A9400AE1167 /* DBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBModel.m; sourceTree = "<group>"; };
+		7C2C71A91BA34C9C00AE1167 /* Yeast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yeast.h; sourceTree = "<group>"; };
+		7C2C71AA1BA34C9C00AE1167 /* Yeast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yeast.m; sourceTree = "<group>"; };
+		7C2C71AC1BA350FD00AE1167 /* NewProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProductViewController.h; sourceTree = "<group>"; };
+		7C2C71AD1BA350FD00AE1167 /* NewProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProductViewController.m; sourceTree = "<group>"; };
+		7C2C71AF1BA3539B00AE1167 /* GrainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrainTableViewController.h; sourceTree = "<group>"; };
+		7C2C71B01BA3539B00AE1167 /* GrainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrainTableViewController.m; sourceTree = "<group>"; };
+		7C2C71B21BA353AA00AE1167 /* ProductTableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductTableProtocol.h; sourceTree = "<group>"; };
+		7C2C71B41BA353C900AE1167 /* HomeBrewerDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomeBrewerDB.sqlite; sourceTree = "<group>"; };
+		7CCCF2661BB1EE0500A9E5E1 /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
+		7CCCF2671BB1EE0500A9E5E1 /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
+		7CDB30F21BA1FC1900386FBC /* Homebrewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homebrewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDB30F61BA1FC1900386FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDB30F71BA1FC1900386FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CDB30F91BA1FC1900386FBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CDB30FA1BA1FC1900386FBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CDB30FC1BA1FC1900386FBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CDB30FD1BA1FC1900386FBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CDB31001BA1FC1900386FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CDB31021BA1FC1900386FBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CDB31051BA1FC1900386FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7CDB310B1BA1FC1A00386FBC /* HomebrewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomebrewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDB31101BA1FC1A00386FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDB31111BA1FC1A00386FBC /* HomebrewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomebrewerTests.m; sourceTree = "<group>"; };
+		7CDB311C1BA1FC6F00386FBC /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		7CDB311D1BA1FC6F00386FBC /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		7CDB31201BA212B400386FBC /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		7CDB31211BA212B400386FBC /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CDB30EF1BA1FC1900386FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2C71A01BA3282900AE1167 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDB31081BA1FC1A00386FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C2C71981BA31BA800AE1167 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C71991BA31BC400AE1167 /* HopTableViewCell.h */,
+				7C2C719A1BA31BC400AE1167 /* HopTableViewCell.m */,
+				7C2C719C1BA31BCC00AE1167 /* GrainTableViewCell.h */,
+				7C2C719D1BA31BCC00AE1167 /* GrainTableViewCell.m */,
+				7CCCF2661BB1EE0500A9E5E1 /* HeaderTableViewCell.h */,
+				7CCCF2671BB1EE0500A9E5E1 /* HeaderTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		7C2C71B31BA353B700AE1167 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C71B41BA353C900AE1167 /* HomeBrewerDB.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7CDB30E91BA1FC1900386FBC = {
+			isa = PBXGroup;
+			children = (
+				7CDB30F41BA1FC1900386FBC /* Homebrewer */,
+				7CDB310E1BA1FC1A00386FBC /* HomebrewerTests */,
+				7CDB30F31BA1FC1900386FBC /* Products */,
+				7C2C719F1BA3282900AE1167 /* libsqlite3.dylib */,
+			);
+			sourceTree = "<group>";
+		};
+		7CDB30F31BA1FC1900386FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CDB30F21BA1FC1900386FBC /* Homebrewer.app */,
+				7CDB310B1BA1FC1A00386FBC /* HomebrewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CDB30F41BA1FC1900386FBC /* Homebrewer */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C71B31BA353B700AE1167 /* Resources */,
+				7CDB311F1BA2129900386FBC /* ViewControllers */,
+				7CDB311B1BA1FC5700386FBC /* Model */,
+				7CDB30F91BA1FC1900386FBC /* AppDelegate.h */,
+				7CDB30FA1BA1FC1900386FBC /* AppDelegate.m */,
+				7CDB30FC1BA1FC1900386FBC /* ViewController.h */,
+				7CDB30FD1BA1FC1900386FBC /* ViewController.m */,
+				7CDB30FF1BA1FC1900386FBC /* Main.storyboard */,
+				7CDB31021BA1FC1900386FBC /* Images.xcassets */,
+				7CDB31041BA1FC1900386FBC /* LaunchScreen.xib */,
+				7CDB30F51BA1FC1900386FBC /* Supporting Files */,
+			);
+			path = Homebrewer;
+			sourceTree = "<group>";
+		};
+		7CDB30F51BA1FC1900386FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CDB30F61BA1FC1900386FBC /* Info.plist */,
+				7CDB30F71BA1FC1900386FBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CDB310E1BA1FC1A00386FBC /* HomebrewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CDB31111BA1FC1A00386FBC /* HomebrewerTests.m */,
+				7CDB310F1BA1FC1A00386FBC /* Supporting Files */,
+			);
+			path = HomebrewerTests;
+			sourceTree = "<group>";
+		};
+		7CDB310F1BA1FC1A00386FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CDB31101BA1FC1A00386FBC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CDB311B1BA1FC5700386FBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7CDB311C1BA1FC6F00386FBC /* Recipe.h */,
+				7CDB311D1BA1FC6F00386FBC /* Recipe.m */,
+				7C2C71B21BA353AA00AE1167 /* ProductTableProtocol.h */,
+				7C2C717E1BA3099000AE1167 /* Hop.h */,
+				7C2C717F1BA3099000AE1167 /* Hop.m */,
+				7C2C71811BA3099E00AE1167 /* Grain.h */,
+				7C2C71821BA3099E00AE1167 /* Grain.m */,
+				7C2C71A61BA32A9400AE1167 /* DBModel.h */,
+				7C2C71A71BA32A9400AE1167 /* DBModel.m */,
+				7C2C71A91BA34C9C00AE1167 /* Yeast.h */,
+				7C2C71AA1BA34C9C00AE1167 /* Yeast.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7CDB311F1BA2129900386FBC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C2C71981BA31BA800AE1167 /* Cells */,
+				7CDB31201BA212B400386FBC /* RecipeViewController.h */,
+				7CDB31211BA212B400386FBC /* RecipeViewController.m */,
+				7C2C71841BA30B4200AE1167 /* ProductTableViewController.h */,
+				7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */,
+				7C2C71AF1BA3539B00AE1167 /* GrainTableViewController.h */,
+				7C2C71B01BA3539B00AE1167 /* GrainTableViewController.m */,
+				7C2C71951BA31B3F00AE1167 /* HopTableViewController.h */,
+				7C2C71961BA31B3F00AE1167 /* HopTableViewController.m */,
+				7C2C71AC1BA350FD00AE1167 /* NewProductViewController.h */,
+				7C2C71AD1BA350FD00AE1167 /* NewProductViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CDB30F11BA1FC1900386FBC /* Homebrewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDB31151BA1FC1A00386FBC /* Build configuration list for PBXNativeTarget "Homebrewer" */;
+			buildPhases = (
+				7CDB30EE1BA1FC1900386FBC /* Sources */,
+				7CDB30EF1BA1FC1900386FBC /* Frameworks */,
+				7CDB30F01BA1FC1900386FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homebrewer;
+			productName = Homebrewer;
+			productReference = 7CDB30F21BA1FC1900386FBC /* Homebrewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CDB310A1BA1FC1A00386FBC /* HomebrewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CDB31181BA1FC1A00386FBC /* Build configuration list for PBXNativeTarget "HomebrewerTests" */;
+			buildPhases = (
+				7CDB31071BA1FC1A00386FBC /* Sources */,
+				7CDB31081BA1FC1A00386FBC /* Frameworks */,
+				7CDB31091BA1FC1A00386FBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CDB310D1BA1FC1A00386FBC /* PBXTargetDependency */,
+			);
+			name = HomebrewerTests;
+			productName = HomebrewerTests;
+			productReference = 7CDB310B1BA1FC1A00386FBC /* HomebrewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CDB30EA1BA1FC1900386FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = JuanxAne;
+				TargetAttributes = {
+					7CDB30F11BA1FC1900386FBC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7CDB310A1BA1FC1A00386FBC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7CDB30F11BA1FC1900386FBC;
+					};
+				};
+			};
+			buildConfigurationList = 7CDB30ED1BA1FC1900386FBC /* Build configuration list for PBXProject "Homebrewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CDB30E91BA1FC1900386FBC;
+			productRefGroup = 7CDB30F31BA1FC1900386FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CDB30F11BA1FC1900386FBC /* Homebrewer */,
+				7CDB310A1BA1FC1A00386FBC /* HomebrewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CDB30F01BA1FC1900386FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2C71B51BA3557B00AE1167 /* HomeBrewerDB.sqlite in Resources */,
+				7CDB31011BA1FC1900386FBC /* Main.storyboard in Resources */,
+				7CDB31061BA1FC1900386FBC /* LaunchScreen.xib in Resources */,
+				7CDB31031BA1FC1900386FBC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDB31091BA1FC1A00386FBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CDB30EE1BA1FC1900386FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2C71AB1BA34C9C00AE1167 /* Yeast.m in Sources */,
+				7C2C71831BA3099E00AE1167 /* Grain.m in Sources */,
+				7C2C719B1BA31BC400AE1167 /* HopTableViewCell.m in Sources */,
+				7C2C71971BA31B3F00AE1167 /* HopTableViewController.m in Sources */,
+				7CDB30FE1BA1FC1900386FBC /* ViewController.m in Sources */,
+				7CDB30FB1BA1FC1900386FBC /* AppDelegate.m in Sources */,
+				7CDB30F81BA1FC1900386FBC /* main.m in Sources */,
+				7C2C719E1BA31BCC00AE1167 /* GrainTableViewCell.m in Sources */,
+				7C2C71801BA3099000AE1167 /* Hop.m in Sources */,
+				7C2C71AE1BA350FD00AE1167 /* NewProductViewController.m in Sources */,
+				7CDB311E1BA1FC6F00386FBC /* Recipe.m in Sources */,
+				7C2C71A81BA32A9400AE1167 /* DBModel.m in Sources */,
+				7CCCF2681BB1EE0500A9E5E1 /* HeaderTableViewCell.m in Sources */,
+				7C2C71B11BA3539B00AE1167 /* GrainTableViewController.m in Sources */,
+				7CDB31221BA212B400386FBC /* RecipeViewController.m in Sources */,
+				7C2C71861BA30B4200AE1167 /* ProductTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDB31071BA1FC1A00386FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDB31121BA1FC1A00386FBC /* HomebrewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CDB310D1BA1FC1A00386FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CDB30F11BA1FC1900386FBC /* Homebrewer */;
+			targetProxy = 7CDB310C1BA1FC1A00386FBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CDB30FF1BA1FC1900386FBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDB31001BA1FC1900386FBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CDB31041BA1FC1900386FBC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CDB31051BA1FC1900386FBC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CDB31131BA1FC1A00386FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CDB31141BA1FC1A00386FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CDB31161BA1FC1A00386FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Homebrewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CDB31171BA1FC1A00386FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Homebrewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CDB31191BA1FC1A00386FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomebrewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homebrewer.app/Homebrewer";
+			};
+			name = Debug;
+		};
+		7CDB311A1BA1FC1A00386FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomebrewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homebrewer.app/Homebrewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CDB30ED1BA1FC1900386FBC /* Build configuration list for PBXProject "Homebrewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDB31131BA1FC1A00386FBC /* Debug */,
+				7CDB31141BA1FC1A00386FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDB31151BA1FC1A00386FBC /* Build configuration list for PBXNativeTarget "Homebrewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDB31161BA1FC1A00386FBC /* Debug */,
+				7CDB31171BA1FC1A00386FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CDB31181BA1FC1A00386FBC /* Build configuration list for PBXNativeTarget "HomebrewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CDB31191BA1FC1A00386FBC /* Debug */,
+				7CDB311A1BA1FC1A00386FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CDB30EA1BA1FC1900386FBC /* Project object */;
+}

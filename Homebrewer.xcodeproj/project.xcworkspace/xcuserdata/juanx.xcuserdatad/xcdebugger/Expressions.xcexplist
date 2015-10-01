@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[GrainTableViewCell textFieldDidEndEditing:]:GrainTableViewCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RecipeViewController tableView:numberOfRowsInSection:]:RecipeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RecipeViewController sectionTouch:]:RecipeViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RecipeViewController tableView:didSelectRowAtIndexPath:]:RecipeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RecipeViewController tableView:cellForRowAtIndexPath:]:RecipeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[Hop hopsForRecipe:InDataBase:]:Hop.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sqlite3_prepare_v2(database, query_stmt, -1, &amp;statement, NULL)">
+            </PersistentString>
+            <PersistentString
+               value = "sqlite3_column_double(statement, 2)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
