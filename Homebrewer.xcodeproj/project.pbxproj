@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631F65C61D275BF80081F1A0 /* UtilitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631F65C51D275BF80081F1A0 /* UtilitiesViewController.m */; };
+		631F65C91D275E3C0081F1A0 /* TemperatureConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631F65C81D275E3C0081F1A0 /* TemperatureConverterViewController.m */; };
+		631F65CC1D275E640081F1A0 /* IBUSCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631F65CB1D275E640081F1A0 /* IBUSCalculatorViewController.m */; };
 		7C2C71801BA3099000AE1167 /* Hop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C717F1BA3099000AE1167 /* Hop.m */; };
 		7C2C71831BA3099E00AE1167 /* Grain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71821BA3099E00AE1167 /* Grain.m */; };
 		7C2C71861BA30B4200AE1167 /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */; };
@@ -42,14 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631F65C41D275BF80081F1A0 /* UtilitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilitiesViewController.h; sourceTree = "<group>"; };
+		631F65C51D275BF80081F1A0 /* UtilitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesViewController.m; sourceTree = "<group>"; };
+		631F65C71D275E3C0081F1A0 /* TemperatureConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureConverterViewController.h; sourceTree = "<group>"; };
+		631F65C81D275E3C0081F1A0 /* TemperatureConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureConverterViewController.m; sourceTree = "<group>"; };
+		631F65CA1D275E640081F1A0 /* IBUSCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBUSCalculatorViewController.h; sourceTree = "<group>"; };
+		631F65CB1D275E640081F1A0 /* IBUSCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBUSCalculatorViewController.m; sourceTree = "<group>"; };
 		7C2C717E1BA3099000AE1167 /* Hop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hop.h; sourceTree = "<group>"; };
 		7C2C717F1BA3099000AE1167 /* Hop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hop.m; sourceTree = "<group>"; };
 		7C2C71811BA3099E00AE1167 /* Grain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grain.h; sourceTree = "<group>"; };
 		7C2C71821BA3099E00AE1167 /* Grain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grain.m; sourceTree = "<group>"; };
-		7C2C71841BA30B4200AE1167 /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
-		7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
-		7C2C71951BA31B3F00AE1167 /* HopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HopTableViewController.h; sourceTree = "<group>"; };
-		7C2C71961BA31B3F00AE1167 /* HopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HopTableViewController.m; sourceTree = "<group>"; };
+		7C2C71841BA30B4200AE1167 /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductTableViewController.h; path = ../ProductTableViewController.h; sourceTree = "<group>"; };
+		7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductTableViewController.m; path = ../ProductTableViewController.m; sourceTree = "<group>"; };
+		7C2C71951BA31B3F00AE1167 /* HopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HopTableViewController.h; path = ../HopTableViewController.h; sourceTree = "<group>"; };
+		7C2C71961BA31B3F00AE1167 /* HopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HopTableViewController.m; path = ../HopTableViewController.m; sourceTree = "<group>"; };
 		7C2C71991BA31BC400AE1167 /* HopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HopTableViewCell.h; sourceTree = "<group>"; };
 		7C2C719A1BA31BC400AE1167 /* HopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HopTableViewCell.m; sourceTree = "<group>"; };
 		7C2C719C1BA31BCC00AE1167 /* GrainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrainTableViewCell.h; sourceTree = "<group>"; };
@@ -59,10 +68,10 @@
 		7C2C71A71BA32A9400AE1167 /* DBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBModel.m; sourceTree = "<group>"; };
 		7C2C71A91BA34C9C00AE1167 /* Yeast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Yeast.h; sourceTree = "<group>"; };
 		7C2C71AA1BA34C9C00AE1167 /* Yeast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Yeast.m; sourceTree = "<group>"; };
-		7C2C71AC1BA350FD00AE1167 /* NewProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProductViewController.h; sourceTree = "<group>"; };
-		7C2C71AD1BA350FD00AE1167 /* NewProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProductViewController.m; sourceTree = "<group>"; };
-		7C2C71AF1BA3539B00AE1167 /* GrainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrainTableViewController.h; sourceTree = "<group>"; };
-		7C2C71B01BA3539B00AE1167 /* GrainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrainTableViewController.m; sourceTree = "<group>"; };
+		7C2C71AC1BA350FD00AE1167 /* NewProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewProductViewController.h; path = ../NewProductViewController.h; sourceTree = "<group>"; };
+		7C2C71AD1BA350FD00AE1167 /* NewProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewProductViewController.m; path = ../NewProductViewController.m; sourceTree = "<group>"; };
+		7C2C71AF1BA3539B00AE1167 /* GrainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GrainTableViewController.h; path = ../GrainTableViewController.h; sourceTree = "<group>"; };
+		7C2C71B01BA3539B00AE1167 /* GrainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GrainTableViewController.m; path = ../GrainTableViewController.m; sourceTree = "<group>"; };
 		7C2C71B21BA353AA00AE1167 /* ProductTableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductTableProtocol.h; sourceTree = "<group>"; };
 		7C2C71B41BA353C900AE1167 /* HomeBrewerDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = HomeBrewerDB.sqlite; sourceTree = "<group>"; };
 		7CCCF2661BB1EE0500A9E5E1 /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
@@ -82,8 +91,8 @@
 		7CDB31111BA1FC1A00386FBC /* HomebrewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomebrewerTests.m; sourceTree = "<group>"; };
 		7CDB311C1BA1FC6F00386FBC /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
 		7CDB311D1BA1FC6F00386FBC /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
-		7CDB31201BA212B400386FBC /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
-		7CDB31211BA212B400386FBC /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		7CDB31201BA212B400386FBC /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeViewController.h; path = Homebrewer/RecipeViewController.h; sourceTree = SOURCE_ROOT; };
+		7CDB31211BA212B400386FBC /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeViewController.m; path = Homebrewer/RecipeViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		631F65C21D275B7F0081F1A0 /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				7CDB31201BA212B400386FBC /* RecipeViewController.h */,
+				7CDB31211BA212B400386FBC /* RecipeViewController.m */,
+				7C2C71841BA30B4200AE1167 /* ProductTableViewController.h */,
+				7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */,
+				7C2C71AF1BA3539B00AE1167 /* GrainTableViewController.h */,
+				7C2C71B01BA3539B00AE1167 /* GrainTableViewController.m */,
+				7C2C71951BA31B3F00AE1167 /* HopTableViewController.h */,
+				7C2C71961BA31B3F00AE1167 /* HopTableViewController.m */,
+				7C2C71AC1BA350FD00AE1167 /* NewProductViewController.h */,
+				7C2C71AD1BA350FD00AE1167 /* NewProductViewController.m */,
+			);
+			path = Recipe;
+			sourceTree = "<group>";
+		};
+		631F65C31D275BAC0081F1A0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				631F65C41D275BF80081F1A0 /* UtilitiesViewController.h */,
+				631F65C51D275BF80081F1A0 /* UtilitiesViewController.m */,
+				631F65C71D275E3C0081F1A0 /* TemperatureConverterViewController.h */,
+				631F65C81D275E3C0081F1A0 /* TemperatureConverterViewController.m */,
+				631F65CA1D275E640081F1A0 /* IBUSCalculatorViewController.h */,
+				631F65CB1D275E640081F1A0 /* IBUSCalculatorViewController.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		7C2C71981BA31BA800AE1167 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,17 +249,9 @@
 		7CDB311F1BA2129900386FBC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				631F65C31D275BAC0081F1A0 /* Utilities */,
+				631F65C21D275B7F0081F1A0 /* Recipe */,
 				7C2C71981BA31BA800AE1167 /* Cells */,
-				7CDB31201BA212B400386FBC /* RecipeViewController.h */,
-				7CDB31211BA212B400386FBC /* RecipeViewController.m */,
-				7C2C71841BA30B4200AE1167 /* ProductTableViewController.h */,
-				7C2C71851BA30B4200AE1167 /* ProductTableViewController.m */,
-				7C2C71AF1BA3539B00AE1167 /* GrainTableViewController.h */,
-				7C2C71B01BA3539B00AE1167 /* GrainTableViewController.m */,
-				7C2C71951BA31B3F00AE1167 /* HopTableViewController.h */,
-				7C2C71961BA31B3F00AE1167 /* HopTableViewController.m */,
-				7C2C71AC1BA350FD00AE1167 /* NewProductViewController.h */,
-				7C2C71AD1BA350FD00AE1167 /* NewProductViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -331,12 +362,15 @@
 				7C2C719B1BA31BC400AE1167 /* HopTableViewCell.m in Sources */,
 				7C2C71971BA31B3F00AE1167 /* HopTableViewController.m in Sources */,
 				7CDB30FE1BA1FC1900386FBC /* ViewController.m in Sources */,
+				631F65CC1D275E640081F1A0 /* IBUSCalculatorViewController.m in Sources */,
 				7CDB30FB1BA1FC1900386FBC /* AppDelegate.m in Sources */,
 				7CDB30F81BA1FC1900386FBC /* main.m in Sources */,
+				631F65C61D275BF80081F1A0 /* UtilitiesViewController.m in Sources */,
 				7C2C719E1BA31BCC00AE1167 /* GrainTableViewCell.m in Sources */,
 				7C2C71801BA3099000AE1167 /* Hop.m in Sources */,
 				7C2C71AE1BA350FD00AE1167 /* NewProductViewController.m in Sources */,
 				7CDB311E1BA1FC6F00386FBC /* Recipe.m in Sources */,
+				631F65C91D275E3C0081F1A0 /* TemperatureConverterViewController.m in Sources */,
 				7C2C71A81BA32A9400AE1167 /* DBModel.m in Sources */,
 				7CCCF2681BB1EE0500A9E5E1 /* HeaderTableViewCell.m in Sources */,
 				7C2C71B11BA3539B00AE1167 /* GrainTableViewController.m in Sources */,
